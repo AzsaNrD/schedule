@@ -1,0 +1,323 @@
+body {
+    font-family: 'Poppins',
+        sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #EDFCFC;
+}
+
+/* flex */
+.space-x {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+/* font */
+.f-14 {
+    font-size: 14px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semi-bold {
+    font-weight: 600;
+}
+
+/* margin */
+.mt-40 {
+    margin-top: 20px;
+}
+
+/* Header */
+
+header {
+    background-color: #EDFCFC;
+}
+
+header.header2 {
+    background-color: #A6F0F2;
+}
+
+/* header div p.judul {
+    font-size: 24px;
+}
+
+header div p.judul2 {
+    font-size: 20px;
+
+} */
+
+header a {
+    text-decoration: none !important;
+    color: black;
+    font-size: 20px;
+}
+
+header div.link {
+    cursor: pointer;
+}
+
+header div.link a:hover {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    color: #457587;
+}
+
+header a.tengah {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+header a.ButtonAbsen {
+    color: white;
+    background-color: #457587;
+    padding: 4px 16px;
+    border: 1px solid #457587;
+}
+
+header a.ButtonAbsen:hover {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    color: #457587;
+    background-color: white;
+    padding: 8px 36px;
+    border: 1px solid #457587;
+}
+
+.infoJalan {
+    width: 950px;
+    display: flex;
+    align-items: center;
+}
+
+/* jadwalPelajaran */
+.jadwalPelajaran {
+    border: 1px solid #0079A6;
+    border-radius: 10px;
+    background-color: #E7F8FF;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000),
+        var(--tw-shadow);
+}
+
+.jadwal-pelajaran-box {
+    width: 300px;
+    height: 130px;
+    background-color: #8BFFDC;
+    border-radius: 10px;
+    border: 1px solid #0079A6;
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000),
+        var(--tw-shadow);
+}
+
+.jadwal-pelajaran-box:hover {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000),
+        var(--tw-shadow);
+}
+
+.joinZoom {
+    text-decoration: none;
+    padding: 4px 18px;
+    background-color: #4B92F1;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #0079A6;
+}
+
+.joinZoom:hover {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    text-decoration: none;
+    padding: 4px 18px;
+    background-color: #297ae6;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #0079A6;
+}
+
+/* Jadwal PAS */
+.jadwalPAS {
+    border: 1px solid #0079A6;
+    border-radius: 10px;
+    background-color: #E7F8FF;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000),
+        var(--tw-shadow);
+}
+
+.jadwal-pas-box {
+    width: 350px;
+    height: 160px;
+    background-color: #8BFFDC;
+    border-radius: 10px;
+    border: 1px solid #0079A6;
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000),
+        var(--tw-shadow);
+}
+
+.jadwal-pas-box:hover {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000),
+        var(--tw-shadow);
+}
+
+/* .jadwal-pas-box {
+    transition-duration: 150ms;
+}
+
+.jadwal-pas-box-hover:hover {
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transform: translateY(-3px);
+} */
+
+.ubk {
+    text-decoration: none;
+    color: black;
+}
+
+.ubk:hover {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+/* daftarTugas */
+.daftarTugas {
+    border: 1px solid #0079A6;
+    border-radius: 10px;
+    background-color: #E7F8FF;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000),
+        var(--tw-shadow);
+}
+
+.h-tugas {
+    height: 200px;
+}
+
+.tugasLink {
+    text-decoration: none;
+    color: white;
+    background-color: #457587;
+    border: 1px solid #457587;
+}
+
+.tugasLink:hover {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    text-decoration: none;
+    color: #457587;
+    background-color: white;
+    border: 1px solid #457587;
+}
+
+/* footer */
+.footer {
+    background-color: #457587;
+    margin-top: 100px;
+    color: white;
+}
+
+.igAzsa {
+    text-decoration: none;
+    color: white;
+}
+
+.igAzsa:hover {
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+
+/* img */
+.img-mobile {
+    width: 200px;
+}
+
+
+
+/* Responsive */
+@media (min-width: 992px) {
+    /* margin */
+    .mt-lg-60 {
+        margin-top: 60px;
+    }
+
+    /* font size */
+    .f-lg-14 {
+        font-size: 14px;
+    }
+
+    .f-lg-16 {
+        font-size: 16px;
+    }
+
+    .f-lg-18 {
+        font-size: 18px;
+    }
+
+    .f-lg-20 {
+        font-size: 20px;
+    }
+
+    .f-lg-24 {
+        font-size: 24px;
+    }
+
+
+    header a.ButtonAbsen {
+        padding: 8px 36px;
+    }
+
+    /* jadwal pelajaran */
+    .jadwal-pelajaran-box {
+        width: 454px;
+        height: 145px;
+    }
+
+    /* jadwalPAS */
+    .jadwal-pas-box {
+        width: 414px;
+        height: 206px;
+    }
+}
