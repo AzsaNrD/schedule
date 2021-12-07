@@ -22,32 +22,29 @@
 
 <body>
 
-    <div class="d-flex justify-content-center align-items-center d-lg-none">
+    <!-- <div class="d-flex justify-content-center align-items-center d-lg-none">
         <div class="position-absolute top-50 start-50 translate-middle">
             <p class="mb-0 text-center">Silahkan buka web ini di desktop.</p>
-        </div>
-        <!-- <div class="">
-            <p class="mb-0">Silahkan buka situs ini di desktop. </p>
         </div> -->
-    </div>
+    <!-- </div> -->
 
 
 
-    <div class="d-lg-block d-none">
+    <div class="d-lg-block ">
         <!-- header -->
         <header class="">
             <div class="container-lg container-fluid">
                 <div class="d-flex justify-content-between py-lg-5 py-4 align-items-center">
                     <div class="fw-bold">
-                        <p class="mb-0 f-lg-24 ">XII Social Science 2</p>
+                        <p class="mb-0 f-lg-24 f-20 ">XII Social Science 2</p>
                     </div>
                     <div class="link d-lg-inline d-none">
-                        <a href="">Tugas</a>
-                        <a href="" class="tengah">Jadwal Pelajaran</a>
-                        <a href="">Jadwal PAS</a>
+                        <a href="#tugas">Tugas</a>
+                        <a href="#jadwalpelajaran" class="tengah">Jadwal Pelajaran</a>
+                        <a href="#jadwalpas">Jadwal PAS</a>
                     </div>
                     <div>
-                        <a href="http://data.akasmanti.com/" target="_blank" class="ButtonAbsen f-20"
+                        <a href="http://data.akasmanti.com/" target="_blank" class="ButtonAbsen f-16 f-lg-20"
                             title="06.00 - 08.00">Absen</a>
                     </div>
                 </div>
@@ -58,7 +55,7 @@
                     <div class="">
                         <p class="mb-0 f-lg-20 f-18" id="waktu">Hi, selamat pagi</p>
                     </div>
-                    <div class="infoJalan">
+                    <div class="infoJalan d-lg-inline d-none">
                         <marquee behavior="" direction="" class="f-18 mb-0">
                             &nbsp;&nbsp;&nbsp;&nbsp;⌥&nbsp;&nbsp;&nbsp;&nbsp;Awali pembelajaranmu dengan berdoa
                             &nbsp;&nbsp;&nbsp;&nbsp;⌥&nbsp;&nbsp;&nbsp;&nbsp; Tetap Jaga Kesehatan
@@ -68,7 +65,22 @@
                             2022 &nbsp;&nbsp;&nbsp;&nbsp;⌥&nbsp;&nbsp;&nbsp;&nbsp;</marquee>
                     </div>
                     <div class="d-flex align-items-center">
-                        <p class="mb-0 jam f-18" id="jam">00 : 00 : 00</p>
+                        <p class="mb-0 jam f-18 f-lg-2-" id="jam">00 : 00 : 00</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header class="header2 d-lg-none">
+            <div class="container-lg container-fluid ">
+                <div class="d-flex flex-row flex-lg-row justify-content-between align-content-center pb-2">
+                    <div class="infoJalan">
+                        <marquee behavior="" direction="" class="f-18 mb-0">
+                            &nbsp;&nbsp;&nbsp;&nbsp;⌥&nbsp;&nbsp;&nbsp;&nbsp;Awali pembelajaranmu dengan berdoa
+                            &nbsp;&nbsp;&nbsp;&nbsp;⌥&nbsp;&nbsp;&nbsp;&nbsp; Tetap Jaga Kesehatan
+                            &nbsp;&nbsp;&nbsp;&nbsp;⌥&nbsp;&nbsp;&nbsp;&nbsp; UTBK 5 bulan lagi!
+                            &nbsp;&nbsp;&nbsp;&nbsp;⌥&nbsp;&nbsp;&nbsp;&nbsp; Pembuatan akun LTMPT 14 Februari - 17
+                            Maret
+                            2022 &nbsp;&nbsp;&nbsp;&nbsp;⌥&nbsp;&nbsp;&nbsp;&nbsp;</marquee>
                     </div>
                 </div>
             </div>
@@ -76,25 +88,25 @@
         <!-- akhir header -->
 
         <!-- section jadwal pelajaran -->
-        <section class="mt-lg-60 mt-40 p-2">
+        <section class="mt-lg-60 mt-40 px-3 px-lg-0" id="jadwalpelajaran">
             <div class="container-lg container-fluid jadwalPelajaran p-5 p-0">
                 <div class="text-center d-flex flex-lg-row flex-column align-items-center justify-content-center">
-                    <p class="mb-0 fw-bold f-lg-24">Jadwal Pelajaran</p>
-                    <p class="mb-0 fw-bold f-24 mx-3">|</p>
-                    <p class="mb-0 fw-light f-20">
+                    <p class="mb-0 fw-bold f-24">Jadwal Pelajaran</p>
+                    <p class="mb-0 fw-bold f-24 mx-3 d-lg-flex d-none">|</p>
+                    <p class="mb-0 fw-light f-16 f-lg-18">
                         <span id="hari">Senin</span>,
                         <span id="tanggal">01</span>
                         <span id="bulan">Januari</span>
                         <span id="tahun">2021</span>
-                        
+
                     </p>
                 </div>
 
                 <!-- senin -->
-                <div id="senin" class="mb-3">
+                <div id="senin" class="mb-3 mt-lg-0 mt-2">
                     <div class="d-flex flex-wrap justify-content-center">
                         <div class="me-lg-5">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Bahasa Jepang</p>
                                     <p class="mb-0 f-14">Anggun Putri Riyani, S.Pd</p>
@@ -102,14 +114,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">07.00 - 08.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Bahasa Inggris Wajib</p>
                                     <p class="mb-0 f-14">Tihabsah, S.Pd</p>
@@ -117,14 +130,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">08.00 - 09.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="me-lg-5">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Sosiologi</p>
                                     <p class="mb-0 f-14">Wartiningsih, S.Pd</p>
@@ -132,14 +146,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">10.00 - 11.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Ekonomi</p>
                                     <p class="mb-0 f-14">Hj. Rokayah, S.Pd</p>
@@ -147,7 +162,8 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">11.00 - 12.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
@@ -158,10 +174,10 @@
                 <!-- senin -->
 
                 <!-- selasa -->
-                <div id="selasa" class="mb-3">
+                <div id="selasa" class="mb-3 mt-lg-0 mt-2">
                     <div class="d-flex flex-wrap justify-content-center">
                         <div class="me-lg-5">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Sejarah Minat</p>
                                     <p class="mb-0 f-14">Lina Herlina, M.Pd</p>
@@ -169,14 +185,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">07.00 - 08.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Matematika Wajib</p>
                                     <p class="mb-0 f-14">Dr. Hj. Hamidah, M.Pd</p>
@@ -184,14 +201,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">08.00 - 09.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="me-lg-5">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Bahasa Indonesia</p>
                                     <p class="mb-0 f-14">Tuti Taeneha, M.Pd</p>
@@ -199,14 +217,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">10.00 - 11.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Agama Islam</p>
                                     <p class="mb-0 f-14">Marsiti. S.Ag, M.Pd</p>
@@ -214,7 +233,8 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">11.00 - 12.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
@@ -225,10 +245,10 @@
                 <!-- selasa -->
 
                 <!-- rabu -->
-                <div id="rabu" class="mb-3">
+                <div id="rabu" class="mb-3 mt-lg-0 mt-2">
                     <div class="d-flex flex-wrap justify-content-center">
                         <div class="me-lg-5">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Bahasa Sunda</p>
                                     <p class="mb-0 f-14">Hani Maryani S. M.Pd</p>
@@ -236,14 +256,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">07.00 - 07.40</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Seni Budaya</p>
                                     <p class="mb-0 f-14">Sri Handayani, S.Pd</p>
@@ -251,14 +272,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">08.20 - 09.20</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="me-lg-5">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">PKWU</p>
                                     <p class="mb-0 f-14">Era Yuliawati, S.E, M.M</p>
@@ -266,14 +288,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">09.40 - 10.40</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">BK</p>
                                     <p class="mb-0 f-14">Drs. Sudarmaji, M.Pd</p>
@@ -281,7 +304,8 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">11.00 - 12.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
@@ -292,10 +316,10 @@
                 <!-- rabu -->
 
                 <!-- kamis -->
-                <div id="kamis" class="mb-3">
+                <div id="kamis" class="mb-3 mt-lg-0 mt-2">
                     <div class="d-flex flex-wrap justify-content-center">
                         <div class="me-lg-5">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">PPKN</p>
                                     <p class="mb-0 f-14">Dr. Lely Ersastri, M.Pd</p>
@@ -303,14 +327,14 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-lg-between align-items-lg-center">
                                     <p class="mb-0 fw-14">07.00 - 08.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Geografi</p>
                                     <p class="mb-0 f-14">Nurjanah, S.Pd</p>
@@ -318,14 +342,15 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">08.20 - 09.20</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
                             </div>
                         </div>
                         <div class="me-lg-5">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">Sejarah Indonesia</p>
                                     <p class="mb-0 f-14">Dra. Maesaroh</p>
@@ -333,7 +358,8 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div
+                                    class="d-flex justify-content-between align-items-center">
                                     <p class="mb-0 fw-14">09.40 - 10.40</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
@@ -358,10 +384,10 @@
                 </div>
 
                 <!-- jumat -->
-                <div id="jumat" class="mb-3">
+                <div id="jumat" class="mb-3 mt-lg-0 mt-2">
                     <div class="d-flex flex-wrap justify-content-center">
                         <div class="me-lg-5">
-                            <div class="jadwal-pelajaran-box py-3 px-4 mt-5">
+                            <div class="jadwal-pelajaran-box py-3 px-4 mt-lg-5 mt-4">
                                 <div>
                                     <p class="mb-0 f-18">PJOK</p>
                                     <p class="mb-0 f-14">Eka Chandra, S.Pd</p>
@@ -369,7 +395,7 @@
                                 <div class="mt-1">
                                     <p class="mb-0 fw-bold f-16">...</p>
                                 </div>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-lg-between align-items-lg-center">
                                     <p class="mb-0 fw-14">08.00 - 09.00</p>
                                     <a href="" class="mb-0 fw-14 joinZoom">Join Zoom</a>
                                 </div>
@@ -384,7 +410,7 @@
 
 
         <!-- Jadwal PAS -->
-        <section class="mt-lg-60 mt-40">
+        <section class="mt-lg-60 mt-40 px-3 px-lg-0" id="jadwalpas">
             <div class="container-lg container-fluid p-5 jadwalPAS">
                 <div class="text-center">
                     <p class="mb-0 fw-bold f-24">Jadwal Penilaian Akhir Semester 5</p>
@@ -397,11 +423,11 @@
                         berdasarkan keikutsertaan PAS.</p>
                 </div>
                 <div>
-                    <div class="mb-3">
+                    <div class="mb-3 mt-lg-0 mt-2">
                         <div class="d-flex flex-wrap justify-content-center">
                             <div class="jadwal-pas-box-hover">
                                 <div
-                                    class="me-lg-5 jadwal-pas-box py-3 px-4 mt-5 d-flex flex-column align-items-center justify-content-center">
+                                    class="me-lg-5 jadwal-pas-box py-3 px-4 mt-4 mt-lg-5 d-flex flex-column align-items-center justify-content-center">
                                     <div>
                                         <p class="mb-0 fw-medium f-18">Senin | <span class="fw-normal">06 Desember
                                                 2021</span>
@@ -420,7 +446,7 @@
 
                             <div class="jadwal-pas-box-hover">
                                 <div
-                                    class="jadwal-pas-box py-3 px-4 mt-5 d-flex flex-column align-items-center justify-content-center">
+                                    class="jadwal-pas-box py-3 px-4 mt-4 mt-lg-5 d-flex flex-column align-items-center justify-content-center">
                                     <div>
                                         <p class="mb-0 fw-medium f-18">Selasa | <span class="fw-normal">07 Desember
                                                 2021</span>
@@ -439,7 +465,7 @@
 
                             <div class="jadwal-pas-box-hover">
                                 <div
-                                    class="me-lg-5 jadwal-pas-box py-3 px-4 mt-5 d-flex flex-column align-items-center justify-content-center">
+                                    class="me-lg-5 jadwal-pas-box py-3 px-4 mt-4 mt-lg-5 d-flex flex-column align-items-center justify-content-center">
                                     <div>
                                         <p class="mb-0 fw-medium f-18">Rabu | <span class="fw-normal">08 Desember
                                                 2021</span>
@@ -458,7 +484,7 @@
 
                             <div class="jadwal-pas-box-hover">
                                 <div
-                                    class="jadwal-pas-box py-3 px-4 mt-5 d-flex flex-column align-items-center justify-content-center">
+                                    class="jadwal-pas-box py-3 px-4 mt-4 mt-lg-5 d-flex flex-column align-items-center justify-content-center">
                                     <div>
                                         <p class="mb-0 fw-medium f-18">Kamis | <span class="fw-normal">09 Desember
                                                 2021</span>
@@ -473,7 +499,7 @@
 
                             <div class="jadwal-pas-box-hover">
                                 <div
-                                    class="jadwal-pas-box py-3 px-4 mt-5 d-flex flex-column align-items-center justify-content-center">
+                                    class="jadwal-pas-box py-3 px-4 mt-4 mt-lg-5 d-flex flex-column align-items-center justify-content-center">
                                     <div>
                                         <p class="mb-0 fw-medium f-18">Jumat | <span class="fw-normal">10 Desember
                                                 2021</span>
@@ -497,7 +523,7 @@
         </section>
         <!-- Jadwal PAS -->
 
-        <section class="mt-lg-60 mt-40">
+        <section class="mt-lg-60 mt-40 px-3 px-lg-0" id="tugas">
             <div class="container-lg container-fluid p-5 daftarTugas">
                 <div class="">
                     <div class="text-center">
@@ -515,7 +541,7 @@
         <!-- footer -->
         <section class="footer">
             <div class="container-lg container-fluid">
-                <div class="p-5 text-center f-18">
+                <div class="p-5 text-center f-lg-18 f-14">
                     <p class="mb-0 fw-semibold">© 2021. Made by <a href="https://www.instagram.com/azsa_nrd/"
                             class="igAzsa" target="_blank">Azsa Nurwahyudi</a> </p>
                 </div>
