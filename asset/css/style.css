@@ -110,6 +110,10 @@ header a.ButtonAbsen:hover {
     align-items: center;
 }
 
+#jam {
+    width: 90px;
+}
+
 /* jadwalPelajaran */
 .jadwalPelajaran {
     border: 1px solid #0079A6;
