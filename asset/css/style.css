@@ -97,14 +97,14 @@ header a.ButtonAbsen:hover {
     border: 1px solid #457587;
 }
 
-.malan {
-    width: 800px;
+.infoJalan {
+    width: 950px;
     display: flex;
     align-items: center;
 }
 
-#jam {
-    width: 90px;
+.jam {
+    width: auto;
 }
 
 /* jadwalPelajaran */
@@ -308,9 +308,13 @@ header a.ButtonAbsen:hover {
         font-size: 24px;
     }
 
-
+    /* header */
     header a.ButtonAbsen {
         padding: 8px 36px;
+    }
+
+    .jam-lg {
+        width: 120px;
     }
 
     /* jadwal pelajaran */
