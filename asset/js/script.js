@@ -172,3 +172,38 @@ if (week[dname] == 'Senin') {
     kamis.style.display = 'none';
     jumat.style.display = 'none';
 }
+
+var countDateUtbk= new Date('May 17 2022 24:00:00').getTime();
+let utbk = document.getElementById('utbk');
+let utbk2 = document.getElementById('utbk2');
+var a = setInterval(function () {
+    var now = new Date().getTime();
+    gap = countDateUtbk - now
+
+    var detik = 1000;
+    var menit = detik * 60;
+    var jam = menit * 60;
+    var hari = jam * 24;
+
+    var h = Math.floor(gap / (hari));
+    var j = Math.floor((gap % (hari)) / (jam));
+    var m = Math.floor((gap % (jam)) / (menit));
+    var d = Math.floor((gap % (menit) / (detik)));
+
+    if (h < 10) {
+        h = "0" + h;
+    }
+    if (j < 10) {
+        j = "0" + j;
+    }
+    if (m < 10) {
+        m = "0" + m;
+    }
+    if (d < 10) {
+        d = "0" + d;
+    }
+
+    utbk.innerHTML = `UTBK ${h} Hari Lagi`;
+    utbk2.innerHTML = `UTBK ${h} Hari Lagi`;
+
+}, 1000);
